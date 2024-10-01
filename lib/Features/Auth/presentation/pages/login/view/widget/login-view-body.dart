@@ -94,14 +94,14 @@ class _LoginViewBodyState extends State<LoginViewBody> {
                 //   icon: FontAwesomeIcons.apple,
                 //   text: 'تسجيل الدخول بواسطة ابل',
                 // ),
-                // SizedBox(height: SizeConfig.defaultSize! * 2),
-                // SocialMediaContainer(
-                //   icon: FontAwesomeIcons.facebookF,
-                //   text: 'تسجيل الدخول باستخدام فيسبوك',
-                //   onTap: () {
-                //     context.read<SignInCubit>().signInWithFacebook();
-                //   },
-                // )
+                SizedBox(height: SizeConfig.defaultSize! * 2),
+                SocialMediaContainer(
+                  icon: FontAwesomeIcons.facebookF,
+                  text: 'تسجيل الدخول باستخدام فيسبوك',
+                  onTap: () {
+                    context.read<SignInCubit>().signInWithFacebook();
+                  },
+                )
               ],
             ),
           ),

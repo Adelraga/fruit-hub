@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">fruit-app</string>
-    <string name="facebook_app_id">1234</string>
+    <string name="facebook_app_id">851240269884783</string>
     <string name="fb_login_protocol_scheme">fb1234</string>
-    <string name="facebook_client_token">56789</string>
+    <string name="facebook_client_token">307ae3656400b20a33b8bb6a942fe651</string>
 </resources>
